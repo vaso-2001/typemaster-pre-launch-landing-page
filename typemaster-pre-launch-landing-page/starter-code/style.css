@@ -1,0 +1,464 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content{
+    position: relative;
+    width: 1440px;
+    height: 1870px;
+    overflow: hidden;
+}
+header{
+    position: absolute;
+    width: 1110px;
+    height: 58px;
+    left: 165px;
+    top: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+header>button{
+    background: #E8EFF2;
+    border-radius: 8px; 
+    height: 58px;
+    width: 175px;
+    border: none;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #162542;
+    cursor: pointer;
+}
+header>button:active{
+    background: #162542;
+    color: white;
+}
+/* ***************************************************** */
+.TypeMasterKeyboard{
+    width: 445px;
+    height: 312px;
+    position: absolute;
+    left: 165px;
+    top: 256px;
+}
+.TypeMasterKeyboard>h1{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #162542;
+}
+.TypeMasterKeyboard>p{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #7B8BAD;
+    margin-top: 24px;
+}
+.TypeMasterKeyboard>button{
+    height: 58px;
+    width: 175px;
+    background: #F16718;
+    border-radius: 8px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.TypeMasterKeyboard>button:active{
+    background: #FF9B62;
+}
+.TypeMasterKeyboard>span{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B8BAD;
+    margin-left: 40px;
+}
+/* *************************************** */
+.keyboard{
+    position: absolute;
+    width: 540px;
+    height: 480px;
+    left: 735px;
+    top: 196px;
+    border-radius: 20px;
+}
+.gray_box{
+    position: absolute;
+    width: 255px;
+    height: 240px;
+    left: 1305px;
+    top: 196px;
+    background: #E8EFF2;
+    border-radius: 20px;
+}
+.gray_box2{
+    position: absolute;
+    width: 255px;
+    height: 236px;
+    left: -120px;
+    top: 950px;
+    background: #E8EFF2;
+    border-radius: 20px;
+}
+.phoneAndKeyboard{
+    position: absolute;
+    width: 255px;
+    height: 480px;
+    left: 165px;
+    top: 706px;
+    background: #F16718;
+    border-radius: 20px;
+    z-index: 2;
+    opacity: 0.75;
+    mix-blend-mode: multiply;
+}
+.phoneAndKeyboardIMG{
+    position: absolute;
+    width: 255px;
+    height: 480px;
+    left: 165px;
+    top: 706px;
+    z-index: 1;
+    border-radius: 20px;
+    width: 255px;
+    height: 480px;
+}
+.glassAndKeyboard{
+    position: absolute;
+    width: 445px;
+    height: 480px;
+    left: 450px;
+    top: 706px;
+    border-radius: 20px;
+}
+/* ********************************************** */
+.description{
+    position: absolute;
+    width: 255px;
+    height: 265px;
+    left: 1020px;
+    top: 818px;
+}
+.description>h1{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #162542;
+}
+.description>p{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B8BAD;
+    margin-top: 27px;
+}
+/* ***************************************************** */
+.box01{
+    position: absolute;
+    left: 165px;
+    top: 1354px;
+}
+.box02{
+    position: absolute;
+    left: 450px;
+    top: 1354px;
+}
+.box03{
+    position: absolute;
+    left: 735px;
+    top: 1354px;
+}
+.box04{
+    position: absolute;
+    left: 1020px;
+    top: 1354px;
+}
+.box01,.box02,.box03,.box04{
+    width: 255px;
+    height: 323px;
+}
+.box01>h1,.box02>h1,.box03>h1,.box04>h1{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #162542;
+    margin-top: 48px;
+}
+.box01>p,.box02>p,.box03>p,.box04>p{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B8BAD;
+    margin-top: 24px;
+}
+.box01>img{
+    width: 65px;
+    height: 65px;
+}
+.box02>img{
+    width: 65px;
+    height: 65px;
+}
+.box03>img{
+    width: 65px;
+    height: 65px;
+}
+.box04>img{
+    width: 65px;
+    height: 65px;
+}
+.TYPEMASTER{
+    position: absolute;
+    width: 272px;
+    height: 26px;
+    left: 568px;
+    top: 1805px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B8BAD;
+}
+
+/* TABLET   ********************************** */
+@media screen and (max-width:1023px) and (min-width:412px) {
+    .content{
+        width: 768px;
+        height: 2128px;
+        
+    }
+    header{
+        width: 689px;
+        height: 58px;
+        left: 39px;
+        top: 40px;
+    }
+    .TypeMasterKeyboard{
+        left: 39px;
+        top: 220px;
+    }
+    .TypeMasterKeyboard>h1{
+        width: 339px;
+        height: 96px;
+        left: 39px;
+        top: 220px;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 48px;
+    }
+    .TypeMasterKeyboard>p{
+        font-size: 16px;
+        line-height: 26px;
+        width: 339px;
+        height: 78px;
+    }
+    .keyboard{
+        width: 478px;
+        height: 425px;
+        left: 447px;
+        top: 160px;
+    }
+    .gray_box,.gray_box2{
+        display: none;
+    }
+    .phoneAndKeyboard,.phoneAndKeyboardIMG{
+        width: 214px;
+        height: 320px;
+        left: 39px;
+        top: 625px;
+    }
+    .glassAndKeyboard{
+        width: 445px;
+        height: 320px;
+        left: 283px;
+        top: 625px;
+    }
+    .description{
+        width: 689px;
+        height: 108px;
+        left: 39px;
+        top: 1017px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .description>h1{
+        width: 255px;
+        height: 108px;
+    }
+    .description>p{
+        width: 398px;
+        height: 78px;
+        margin-left: 36px;
+        margin-bottom: 15px;
+    }
+    .box01{
+        width: 339px;
+        height: 289px;
+        left: 39px;
+        top: 1267px;
+    }
+    .box01>h1{
+        width: 339px;
+        height: 56px;
+    }
+    .box02{
+        width: 281px;
+        height: 289px;
+        left: 389px;
+        top: 1267px;
+    }
+    .box03{
+        width: 281px;
+        height: 289px;
+        left: 39px;
+        top: 1628px;
+    }
+    .box04{
+        width: 281px;
+        height: 289px;
+        left: 389px;
+        top: 1628px;
+    }
+    .TYPEMASTER{
+        left: 247px;
+        top: 2059px;
+    }
+}
+/* MOBILE  ***************************************** */
+@media screen and (max-width:412px) {
+    .content{
+        width: 375px;
+        height: 3007px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header{
+        width: 327px;
+        height: 48px;
+        left: 24px;
+        top: 23px;
+    }
+    .TypeMasterKeyboard{
+        width: 327px;
+        height: 286px;
+        left: 24px;
+        top: 135px;
+    }
+    .TypeMasterKeyboard>button{
+        width: 150px;
+        height: 48px;
+    }
+    .TypeMasterKeyboard>span{
+        margin-left: 32px;
+    }
+    .keyboard{
+        width: 372px;
+        height: 331px;
+        left: 24px;
+        top: 485px;
+    }
+    .gray_box,.gray_box2{
+        display: none;
+    }
+    .phoneAndKeyboard,.phoneAndKeyboardIMG{
+        width: 129px;
+        height: 193px;
+        left: -22px;
+        top: 840px;
+    }
+    .glassAndKeyboard{
+        width: 220px;
+        height: 193px;
+        left: 131px;
+        top: 840px;
+    }
+    .description{
+        left: 51px;
+        top: 1108px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .description>h1{
+        width: 255px;
+        height: 108px;
+        text-align: center;
+    }
+    .description>p{
+        width: 327px;
+        height: 104px;
+        margin-left: 36px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .box01{
+        top: 1455px;
+        left: 51px;
+    }
+    .box01,.box02,.box03,.box04{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .box02{
+        top: 1816px;
+        left: 51px;
+    }
+    .box03{
+        top: 2177px;
+        left: 51px;
+    }
+    .box04{
+        top: 2538px;
+        left: 51px;
+    }
+    .TYPEMASTER{
+        width: 272px;
+        height: 26px;
+        left: 51px;
+        top: 2931px;
+    }
+}
